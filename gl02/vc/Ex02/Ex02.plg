@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ex02 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x412 /fo"Release/resource.res" /d "NDEBUG" /d "_AFXDLL" "E:\My Visual C++\openGL\Ex02\resource.rc"" 
+Creating temporary file "C:\DOCUME~1\�輺ö\LOCALS~1\Temp\RSP201.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/Ex02.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\My Visual C++\openGL\Ex02\lib\eglWindow.cpp"
+"E:\My Visual C++\openGL\Ex02\main.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\�輺ö\LOCALS~1\Temp\RSP201.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/Ex02.pdb" /machine:I386 /out:"Release/Ex02.exe"  ".\Release\eglWindow.obj" ".\Release\main.obj" ".\Release\resource.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+eglWindow.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ex02.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

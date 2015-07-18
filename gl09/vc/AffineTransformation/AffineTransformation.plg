@@ -1,0 +1,44 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AffineTransformation - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\±è¼ºÃ¶\LOCALS~1\Temp\RSPBD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/AffineTransformation.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\My Visual C++\¹é¾÷µÈ°Íµé\openGL\AffineTransformation\lib\eglDebug.cpp"
+"E:\My Visual C++\¹é¾÷µÈ°Íµé\openGL\AffineTransformation\lib\eglDib.cpp"
+"E:\My Visual C++\¹é¾÷µÈ°Íµé\openGL\AffineTransformation\lib\eglMathUtil.cpp"
+"E:\My Visual C++\¹é¾÷µÈ°Íµé\openGL\AffineTransformation\lib\eglWindow.cpp"
+"E:\My Visual C++\¹é¾÷µÈ°Íµé\openGL\AffineTransformation\main.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\±è¼ºÃ¶\LOCALS~1\Temp\RSPBD.tmp"" 
+Creating temporary file "C:\DOCUME~1\±è¼ºÃ¶\LOCALS~1\Temp\RSPBE.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/AffineTransformation.pdb" /machine:I386 /out:"Release/AffineTransformation.exe" 
+".\Release\eglDebug.obj"
+".\Release\eglDib.obj"
+".\Release\eglMathUtil.obj"
+".\Release\eglWindow.obj"
+".\Release\main.obj"
+]
+Creating command line "link.exe @"C:\DOCUME~1\±è¼ºÃ¶\LOCALS~1\Temp\RSPBE.tmp""
+<h3>Output Window</h3>
+Compiling...
+eglDebug.cpp
+eglDib.cpp
+eglMathUtil.cpp
+eglWindow.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+AffineTransformation.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: glLine1 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\�輺ö\LOCALS~1\Temp\RSP157.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/glLine1.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\My Visual C++\openGL\glLine1\lib\eglDebug.cpp"
+"E:\My Visual C++\openGL\glLine1\lib\eglDib.cpp"
+"E:\My Visual C++\openGL\glLine1\lib\eglWindow.cpp"
+"E:\My Visual C++\openGL\glLine1\main.cpp"
+]
+Creating command line "cl.exe @"C:\DOCUME~1\�輺ö\LOCALS~1\Temp\RSP157.tmp"" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:no /pdb:"Release/glLine1.pdb" /machine:I386 /out:"Release/glLine1.exe"  ".\Release\eglDebug.obj" ".\Release\eglDib.obj" ".\Release\eglWindow.obj" ".\Release\main.obj" "
+<h3>Output Window</h3>
+Compiling...
+eglDebug.cpp
+eglDib.cpp
+eglWindow.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+glLine1.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

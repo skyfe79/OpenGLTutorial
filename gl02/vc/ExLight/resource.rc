@@ -1,0 +1,162 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Korean resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINMENU MENU DISCARDABLE 
+BEGIN
+    POPUP "Light"
+    BEGIN
+        MENUITEM "Ambient(주변광)",             IDM_LIGHT_AMBIENT
+        MENUITEM "Diffuse(발산광)",             IDM_LIGHT_DIFFUSE
+        MENUITEM "Specular(반사광)",            IDM_LIGHT_SPECULAR
+        MENUITEM SEPARATOR
+        MENUITEM "Position(위치)",              IDM_LIGHT_POSITION
+    END
+    POPUP "Material"
+    BEGIN
+        MENUITEM "Ambient(주변광) 및 Diffuse(발산광) 재질", 
+                                                IDM_MATERIAL_AMBIENT_AND_DIFFUSE
+
+        MENUITEM "Emissive(발광재질)",          IDM_MATERIAL_EMITTED
+        MENUITEM "Specular(반사광재질)",        IDM_MATERIAL_SPECULAR
+        MENUITEM "Shininess(광택재질)",         IDM_MATERIAL_SHININESS
+    END
+    POPUP "Object"
+    BEGIN
+        MENUITEM "Solid Cone",                  IDM_OBJECT_SOLID_CONE
+        MENUITEM "Wire Cone",                   IDM_OBJECT_WIRE_CONE
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Cube",                  IDM_OBJECT_SOLID_CUBE
+        MENUITEM "Wire Cube",                   IDM_OBJECT_WIRE_CUBE
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Dodecahedron(12면체)",  IDM_OBJECT_SOLID_DODECAHEDRON
+
+        MENUITEM "Wire Dodecahedron(12면체)",   IDM_OBJECT_WIRE_DODECAHEDRON
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Icosahedron(20면체)",   IDM_OBJECT_SOLID_ICOSAHEDRON
+        MENUITEM "Wire Icosahedron(20면체)",    IDM_OBJECT_WIRE_ICOSAHEDRON
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Octahedron(8면체)",     IDM_OBJECT_SOLID_OCTAHEDRON
+        MENUITEM "Wire Octahedron(8면체)",      IDM_OBJECT_WIRE_OCTAHEDRON
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Sphere(구)",            IDM_OBJECT_SOLID_SPHERE
+        MENUITEM "Wire Sphere(구)",             IDM_OBJECT_WIRE_SPHERE
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Tetrahedron(4면체)",    IDM_OBJECT_SOLID_TETRAHEDRON
+        MENUITEM "Wire Tetrahedron(4면체)",     IDM_OBJECT_WIRE_TETRAHEDRON
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Torus",                 IDM_OBJECT_SOLID_TORUS
+        MENUITEM "Wire Torus",                  IDM_OBJECT_WIRE_TORUS
+        MENUITEM SEPARATOR
+        MENUITEM "Solid Teapot",                IDM_OBJECT_SOLID_TEAPOT
+        MENUITEM "Wire Teapot",                 IDM_OBJECT_WIRE_TEAPOT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_VALUE_DIALOG DIALOG DISCARDABLE  0, 0, 187, 98
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,130,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,130,24,50,14
+    EDITTEXT        IDC_VALUE1,48,7,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_VALUE2,48,24,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE3,48,41,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_VALUE4,48,58,40,14,ES_AUTOHSCROLL
+    LTEXT           "값1(R,X)",IDC_STATIC,16,7,29,8
+    LTEXT           "값2(G,Y)",IDC_STATIC,16,25,29,8
+    LTEXT           "값3(B,Z)",IDC_STATIC,16,44,29,8
+    LTEXT           "값4(A,W)",IDC_STATIC,16,62,30,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_VALUE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 91
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Korean resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
